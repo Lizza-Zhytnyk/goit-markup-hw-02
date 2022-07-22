@@ -139,7 +139,7 @@ body{
 .footer{
     background-color: var(--secondary-background-color);
 }
-address{
+.address{
     font-style:normal;
 }
 .address-map{

@@ -139,6 +139,9 @@ body{
 .footer{
     background-color: var(--secondary-background-color);
 }
+.address{
+    font-style: normal;
+}
 .address-map{
     font-weight: 400;
     font-size: 14px;

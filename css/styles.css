@@ -6,6 +6,8 @@
     --primary-background-color: #FFFFFF;
     --additional-background-color:#F5F4FA;
     --main-white-color: #FFFFFF;
+    --hover-btn-color: #188CE8;
+    --black-color: #000000;
 }
 
 body{
@@ -34,7 +36,7 @@ body{
     color: var(--accent-color);
 }
 .logo-accent{
-    color: #000000
+    color: var(--black-color);
 }
 .logo-accent-footer{
     color: var(--main-white-color);
@@ -84,17 +86,21 @@ body{
     cursor: pointer;
 }
 .hero-btn{
-    background: #2196F3;
+    background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
     line-height:1.87;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--main-white-color);
+}
+.hero-btn:focus,
+.hero-btn:hover{
+    background: var(--hover-btn-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 .descr-title{
     font-weight: 700;
@@ -167,7 +173,7 @@ body{
 .nav-btn:hover{
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height:1.62;
     text-align: center;
     color: var(--main-white-color);
     background: var(--accent-color);
